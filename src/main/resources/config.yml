@@ -1,0 +1,8 @@
+# CopperAX config file
+
+messages:
+  exploit: "§3CopperAX §f| §3%player% §ffailed §3%exploit% §f(§3%ping%§fms)."
+  kick: "§3CopperAX §f| You were kicked for §3exploiting§3."
+
+permissions:
+  notification: "copperax.notification"
