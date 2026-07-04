@@ -4,7 +4,7 @@ A free & open source anti exploit plugin for your Spigot/Paper-powered Minecraft
 
 ## Info
 
-CopperAX targets the latest version of Minecraft (1.21.11 at the time of writing this), although older versions have been tested on a production server and showed satisfying results (tested versions include 1.8.8 & 1.12.2).
+CopperAX targets the latest version of Minecraft (26.2 at the time of writing this), although older versions have been tested on a production server and showed satisfying results (tested versions include 1.8.8 & 1.12.2).
 Hybrid server softwares are not supported. Paper forks such as Pufferfish, Leaf and Purpur are fully supported and have been widely tested.
 
 CopperAX has been running on a few production servers for quite some time and has been closed source since its first release. I felt like open sourcing it due to my loss of interest into managing Minecraft servers and due to Mojang fixing more and more exploits with newer Minecraft versions being released.

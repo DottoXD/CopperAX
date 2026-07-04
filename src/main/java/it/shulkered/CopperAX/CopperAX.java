@@ -44,6 +44,9 @@ public class CopperAX extends JavaPlugin {
 
         //logger = new PacketLogger(this);
 
+        File logsFolder = new File(getDataFolder(), "logs");
+        if(!logsFolder.exists()) logsFolder.mkdir();
+
         try {
             exploitManager = new ExploitManager(this);
         } catch (IOException e) {
