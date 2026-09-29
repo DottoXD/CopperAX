@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "it.shulkered"
-version = "0.0.8-SNAPSHOT"
+version = "0.0.9-SNAPSHOT"
 description = "The freshest free anti exploit out there."
 java.sourceCompatibility = JavaVersion.VERSION_25
 java.targetCompatibility = JavaVersion.VERSION_25
@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:26.2-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:26.3-R0.1-SNAPSHOT")
     compileOnly("io.netty:netty-all:4.0.20.Final")
     implementation("com.github.retrooper:packetevents-spigot:2.14.0")
 }

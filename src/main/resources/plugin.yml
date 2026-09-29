@@ -1,5 +1,5 @@
 name: CopperAX
-version: 0.0.8-SNAPSHOT
+version: 0.0.9-SNAPSHOT
 main: it.shulkered.CopperAX.CopperAX
 description: "The freshest free anti exploit out there."
 authors: [DottoXD]
