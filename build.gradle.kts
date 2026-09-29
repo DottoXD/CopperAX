@@ -1,10 +1,10 @@
 plugins {
     id("java")
-    id("com.gradleup.shadow") version "9.4.3"
+    id("com.gradleup.shadow") version "9.6.1"
 }
 
 group = "it.shulkered"
-version = "0.0.7-SNAPSHOT"
+version = "0.0.8-SNAPSHOT"
 description = "The freshest free anti exploit out there."
 java.sourceCompatibility = JavaVersion.VERSION_25
 java.targetCompatibility = JavaVersion.VERSION_25
@@ -19,7 +19,7 @@ repositories {
 dependencies {
     compileOnly("org.spigotmc:spigot-api:26.2-R0.1-SNAPSHOT")
     compileOnly("io.netty:netty-all:4.0.20.Final")
-    implementation("com.github.retrooper:packetevents-spigot:2.13.0")
+    implementation("com.github.retrooper:packetevents-spigot:2.14.0")
 }
 
 tasks.build {

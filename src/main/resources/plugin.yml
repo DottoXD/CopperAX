@@ -1,9 +1,9 @@
 name: CopperAX
-version: 0.0.7-SNAPSHOT
+version: 0.0.8-SNAPSHOT
 main: it.shulkered.CopperAX.CopperAX
 description: "The freshest free anti exploit out there."
 authors: [DottoXD]
-api-version: 26.2
+api-version: 1.8.8
 softdepend:
   - ProtocolLib
   - ProtocolSupport
